@@ -3,10 +3,14 @@ $Ligh-gray: hsl(212, 45%, 89%);
 $Grayish-blue: hsl(220, 15%, 55%);
 $Dark-blue: hsl(218, 44%, 22%);
 
-body {
+*{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+}
+
+body {
+	
 	font-size: 15px;
 	font-family: "Outfit", sans-serif;
 	height: 100vh;
