@@ -8,7 +8,7 @@ body {
 	padding: 0;
 	box-sizing: border-box;
 	font-size: 15px;
-    font-family: 'Outfit', sans-serif;
+	font-family: "Outfit", sans-serif;
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
@@ -17,39 +17,32 @@ body {
 	background-color: $Ligh-gray;
 }
 
-
 .qr-card {
-    // margin: 1.5em;
-    width: 375px;
-    max-width: 90vw;
+	width: 375px;
+	max-width: 90vw;
 	background-color: $White;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-    border-radius: 16px;
-   
-        // max-width: 100%;
-
+	border-radius: 16px;
 }
 img {
-    max-width: 90%;
-    // object-fit: cover;
-margin-top:15px;
-border-radius: 16px;
+	max-width: 90%;
+	margin-top: 15px;
+	border-radius: 16px;
 }
 
 .qr-card__text {
 	padding: 0 2em;
-    &-title {
-        color: $Dark-blue;
-        font-weight: 700;
-    }
-    &-p{
-        color: $Grayish-blue;
-        padding: 1em;
-    }
-    
+	&-title {
+		color: $Dark-blue;
+		font-weight: 700;
+	}
+	&-p {
+		color: $Grayish-blue;
+		padding: 1em;
+	}
 }
 
 .attribution {
