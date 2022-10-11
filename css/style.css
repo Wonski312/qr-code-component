@@ -23,6 +23,7 @@ body {
 }
 
 .qr-card {
+  min-width: 375px;
   width: 375px;
   max-width: 90vw;
   background-color: white;
@@ -47,7 +48,7 @@ img {
 }
 
 .qr-card__text {
-  padding: 0 2.2em;
+  padding: 0 2.6em;
 }
 
 .qr-card__text-title {

@@ -18,6 +18,7 @@ body {
 }
 
 .qr-card {
+    min-width:375px;
 	width: 375px;
 	max-width: 90vw;
 	background-color: $White;
@@ -34,7 +35,7 @@ img {
 }
 
 .qr-card__text {
-	padding: 0 2.2em;
+	padding: 0 2.6em;
 	&-title {
 		color: $Dark-blue;
 		font-weight: 700;
